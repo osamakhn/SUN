@@ -3,6 +3,8 @@
 This is the boiler plate for a "build your own" example of an async chat 
 
 ### Setup ###
+It is highly recommended you run all the setup steps before the workshop as this can take some time.
+
 
 #### Dependancies ####
   - Java JDK 1.8
@@ -13,12 +15,14 @@ This is the boiler plate for a "build your own" example of an async chat
   - Additional dependancies downloaded by sbt
 
 #### Download Dependancies ####
-- run `sbt run` from this folder. If successful you should see "Hello World"
+- run `sbt run` from this main folder (the one with build.sbt). If successful you should see "Hello World"
 
 #### KAFKA ####
   - Setup: insure that docker and docker-compose are installed and running
-      - https://docs.docker.com/engine/installation/
-      - https://docs.docker.com/compose/install/
+      - Follow the steps at [https://docs.docker.com/engine/installation/]() to install the docker applications
+        - Open the Docker application and follow the prompts to complete the installation
+        
+      - Some operating systems (Linux) many require docker compose to be installed seperatly [https://docs.docker.com/compose/install/]()
 
   - Start kafka
       - cd into kafka-docker and run `docker-compose up -d`
