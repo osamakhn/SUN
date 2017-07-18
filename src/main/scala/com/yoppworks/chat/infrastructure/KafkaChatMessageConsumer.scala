@@ -12,7 +12,7 @@ import org.apache.kafka.common.serialization.{ ByteArrayDeserializer, StringDese
 
 import scala.concurrent.Future
 
-class KafkaChatMessageConsumer(implicit val system: ActorSystem) extends ChatMessageConsumer {
+class KafkaChatMessageConsumer(implicit val system: ActorSystem, implicit val materializer: ActorMaterializer) extends ChatMessageConsumer {
 
   def  get(topic: String, client: String) : Source[ChatMessage,Consumer.Control] = ???
 

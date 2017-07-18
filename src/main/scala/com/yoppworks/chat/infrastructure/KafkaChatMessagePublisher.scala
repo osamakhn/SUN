@@ -10,7 +10,7 @@ import org.apache.kafka.common.serialization.{ByteArraySerializer, StringSeriali
 import akka.stream.scaladsl.Source
 import scala.concurrent.ExecutionContext.Implicits.global
 
-class KafkaChatMessagePublisher(implicit val system: ActorSystem) extends ChatMessagePublisher {
+class KafkaChatMessagePublisher(implicit val system: ActorSystem, implicit val materializer: ActorMaterializer) extends ChatMessagePublisher {
 
   def one(message: ChatMessage) = ???
 
