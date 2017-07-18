@@ -13,6 +13,7 @@ It is highly recommended you run all the setup steps before the workshop as this
   - docker
   - docker compose
   - Additional dependancies downloaded by sbt
+  - IntelliJ or alternate IDE
 
 #### Download Dependancies ####
 - run `sbt run` from this main folder (the one with build.sbt). If successful you should see "Hello World"
