@@ -19,10 +19,10 @@ It is highly recommended you run all the setup steps before the workshop as this
 
 #### KAFKA ####
   - Setup: insure that docker and docker-compose are installed and running
-      - Follow the steps at [https://docs.docker.com/engine/installation/]() to install the docker applications
+      - Follow the steps at [https://docs.docker.com/engine/installation/](https://docs.docker.com/engine/installation/) to install the docker applications
         - Open the Docker application and follow the prompts to complete the installation
         
-      - Some operating systems (Linux) many require docker compose to be installed seperatly [https://docs.docker.com/compose/install/]()
+      - Some operating systems (Linux) many require docker compose to be installed seperatly [https://docs.docker.com/compose/install/](https://docs.docker.com/compose/install/)
 
   - Start kafka
       - cd into the *kafka-docker* directory
