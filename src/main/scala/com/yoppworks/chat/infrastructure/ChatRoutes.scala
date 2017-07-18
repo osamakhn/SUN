@@ -14,7 +14,7 @@ trait JsonSupport extends SprayJsonSupport with DefaultJsonProtocol {
 
 
 trait ChatRoutes extends JsonSupport {
-  val api : Chat
+//  val api : Chat
   val chatRoutes: Route = ???
 }
 
