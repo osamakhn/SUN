@@ -25,8 +25,13 @@ It is highly recommended you run all the setup steps before the workshop as this
       - Some operating systems (Linux) many require docker compose to be installed seperatly [https://docs.docker.com/compose/install/]()
 
   - Start kafka
-      - cd into kafka-docker and run `docker-compose up -d`
-
+      - cd into the *kafka-docker* directory
+      - run `docker-compose up -d` this will start the kafka continers
+      - Other handy commands:
+        - To view running containers `docker ps` (there should be 2)
+        - To gracefully stop containers `docker-compose stop`
+        - To start containers again `docker-compose start`
+       
 ### License ###
 
   Copyright 2017 James Townley 
